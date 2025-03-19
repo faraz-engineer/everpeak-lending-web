@@ -8,7 +8,7 @@
             <div class="header-wrapper">
                 <div class="header-logo">
                     <a href="/">
-                        <img class="img-fluid" src="~/assets/images/logo.png" alt="logo-image">
+                        <img class="img-fluid" src="~/assets/images/everpeak-logo.png" alt="logo-image">
                     </a>
                 </div>
 
