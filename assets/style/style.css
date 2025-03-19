@@ -6,13 +6,16 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+
 header {
- background-color: #1F2B2B;
+    background-color: #1F2B2B;
 }
+
 .responsive-container {
     max-width: 1200px;
     margin: 0 auto;
 }
+
 .header-wrapper {
     display: flex;
     align-items: center;
@@ -20,9 +23,11 @@ header {
     padding: 30px 0;
     margin-bottom: 60px;
 }
+
 .navbar-user-link ul {
     gap: 40px;
 }
+
 .navbar-link {
     color: #A59C8D;
     font-size: 16px;
@@ -30,6 +35,7 @@ header {
     text-decoration: none;
     transition: all 0.3s ease-in-out;
 }
+
 .common-button {
     display: flex;
     align-items: center;
@@ -39,16 +45,19 @@ header {
     font-weight: 600;
     border-radius: 2px;
 }
+
 .header-button {
     min-width: 144px;
     border: 1px solid #A59C8D;
     background-color: #1F2B2B;
     color: #A59C8D;
 }
+
 .navbar-link:hover {
     border-bottom: 1px solid #A59C8D;
     padding-bottom: 5px;
 }
+
 .header-button:hover {
     background-color: #857867;
     color: white;
@@ -61,11 +70,13 @@ header {
     justify-content: space-between;
     padding: 60px 0;
 }
+
 .real-estate-content {
     max-width: 32%;
     display: flex;
     flex-direction: column;
 }
+
 .common-heading {
     color: #1F2B2B;
     font-size: 32px;
@@ -74,6 +85,7 @@ header {
     margin: 0;
     padding-bottom: 30px;
 }
+
 .common-paragraph {
     font-size: 16px;
     font-weight: 500;
@@ -82,6 +94,7 @@ header {
     margin: 0;
     padding: 15px 0;
 }
+
 .real-estate-button {
     background-color: #A59C8D;
     border: 1px solid #857867;
@@ -94,14 +107,19 @@ header {
     border: 1px solid #A59C8D;
     background-color: #857867;
 }
+
 .lending-criteria-section {
     background-image: url("../images/backround-image.jpg");
     background-size: cover;
     background-position: center;
 }
+
 .lending-criteria-content {
     max-width: 48%;
     padding: 95px 0;
+}
+.lending-criteria-wrapper {
+    margin-top: 70px;
 }
 .lending-criteria-button {
     background-color: #FAFAFA;
@@ -110,45 +128,53 @@ header {
     min-width: 160px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.four-categories-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    text-align: center;
+    align-items: center;
+}
+.card-heading {
+    font-size: 24px;
+    font-weight: 700;
+    color: #A59C8D;
+    line-height: 32px;
+    margin: 0;
+    padding-top: 10px;
+}
+.speed-content {
+    padding: 35px;
+    background-color: #A59C8D33;
+    max-width: 58%;
+}
+.everpeak-categories-wrapper {
+    padding: 60px 0 70px 0;
+}
 
 
 footer {
     background-color: #1F2B2B;
 }
+
 .footer-button {
     gap: 40px;
     width: 40%;
 }
+
 .footer-button button {
     border: 1px solid #FAFAFA;
     color: #FAFAFA;
 }
+
 .footer-button button:hover {
     border: 1px solid #A59C8D;
 }
+
 .footer-content {
     max-width: 20%;
 }
+
 .footer-contacts {
     color: #FAFAFA;
     font-size: 16px;
@@ -157,28 +183,35 @@ footer {
     padding: 15px 0;
     line-height: 24px;
 }
+
 .footer-link {
     color: #FAFAFA;
 }
+
 .footer-link:hover {
     border-bottom: 1px solid #FAFAFA;
 }
+
 .footer-logo {
     padding-bottom: 15px;
 }
+
 .footer-wrapper {
     padding-bottom: 30px;
     padding-top: 80px;
 }
+
 .copyright-content {
     font-size: 14px;
     font-weight: 500;
     color: #A59C8D;
 }
+
 .copyright-wrapper {
     border-top: 1px solid #3E5F69;
     padding-top: 20px;
 }
+
 .copyright-links {
     display: flex;
     gap: 20px;

@@ -36,6 +36,44 @@ onMounted(() => {
         </div>
 
     </section>
+    <section class="everpeak-categories-section">
+        <div class="responsive-container">
+            <div class="everpeak-categories-wrapper d-flex  justify-content-center gap-4">
+                <div class="four-categories-cards">
+                    <div class="speed-category-card">
+                        <img src="~/assets/images/speed-image.png" class="img-fluid" alt="speed-image">
+                        <h2 class="card-heading">Speed</h2>
+                    </div>
+                    <div class="flexibility-category-card">
+                        <img src="~/assets/images/flexibility-image.png" class="img-fluid" alt="flexibility-image">
+                        <h2 class="card-heading">FLEXIBILITY</h2>
+                    </div>
+                    <div class="trust-category-card">
+                        <img src="~/assets/images/trust-image.png" class="img-fluid" alt="trust-image">
+                        <h2 class="card-heading">TRUST</h2>
+                    </div>
+                    <div class="custom-category-card">
+                        <img src="~/assets/images/custom-image.png" class="img-fluid" alt="custom-image">
+                        <h2 class="card-heading">CUSTOM</h2>
+                    </div>
+                </div>
+                <div class="speed-content">
+                    <h1 class="common-heading">SPEED</h1>
+                    <p class="common-paragraph pt-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed arcu leo,
+                        vehicula ac ex eu, fermentum pharetra orci. Nunc semper, ligula eget placerat sollicitudin,
+                        felis lacus accumsan dui, eget rhoncus massa nulla in dolor. Sed tempor maximus neque, et
+                        facilisis enim bibendum sed.
+                    </p>
+                    <p class="common-paragraph">Maecenas vulputate arcu eu eros cursus ultrices. Aliquam tincidunt
+                        finibus consequat. Curabitur facilisis mauris nec ligula ullamcorper varius. Suspendisse id
+                        condimentum quam. Maecenas sodales semper maximus.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <section class="lending-criteria-section">
         <div class="responsive-container">
             <div class="lending-criteria-wrapper">
@@ -59,8 +97,6 @@ onMounted(() => {
             </div>
         </div>
     </section>
-
-
 
 
 </template>
