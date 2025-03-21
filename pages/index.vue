@@ -267,7 +267,7 @@ onMounted(() => {
             </div>
         </div>
     </section>
-    <section class="become-an-investor">
+    <section id="invest" class="become-an-investor">
         <div class="responsive-container">
             <div class="become-an-investor-wrapper">
                 <div class="card p-4 shadow become-an-investor-card">

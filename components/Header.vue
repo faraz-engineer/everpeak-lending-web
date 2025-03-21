@@ -15,7 +15,7 @@
                 <div class="navbar-user-link">
                    <ul class="d-flex m-0 p-0 align-items-center list-unstyled">
                        <li>
-                           <a class="navbar-link" href="#">Apply</a>
+                           <a class="navbar-link" href="/apply">Apply</a>
                        </li>
                        <li>
                            <a class="navbar-link" href="/about">About</a>
@@ -24,7 +24,7 @@
                            <a class="navbar-link" href="/programs">Programs</a>
                        </li>
                        <li>
-                           <a class="navbar-link" href="#">Invest</a>
+                           <a class="navbar-link" href="/#invest">Invest</a>
                        </li>
                        <li>
                            <a class="navbar-link" href="/blog">Blog</a>

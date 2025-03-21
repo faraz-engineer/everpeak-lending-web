@@ -343,8 +343,9 @@ header {
     min-width: 180px;
     transition: all 0.3s linear;
 }
+
 .submit-button:hover {
- background-color: #857867;
+    background-color: #857867;
     border: 1px solid #A59C8D;
 }
 
@@ -379,21 +380,26 @@ header {
     padding: 25px;
     max-width: 690px;
 }
+
 .contact-title {
     color: #857867;
 }
+
 .contact-info {
     font-weight: 400;
 }
+
 .our-mission-wrapper {
     padding-bottom: 60px;
 }
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
     padding: 32px 0 80px 0;
 }
+
 .grid-item {
     background-color: #F7F6F6;
     padding: 20px;
@@ -403,10 +409,11 @@ header {
     gap: 10px;
     padding-bottom: 10px;
 }
+
 .grid-heading {
     margin: 0;
     text-transform: uppercase;
-     font-size: 18px;
+    font-size: 18px;
     font-weight: 700;
     color: #857867;
 }
@@ -415,14 +422,17 @@ header {
 .know-our-program-wrapper {
     padding-bottom: 45px;
 }
+
 .know-our-program-image {
     background-image: url("../images/know-our-program-image.png");
     height: 200px;
     margin-bottom: 40px;
 }
+
 .private-loan-program-wrapper {
     padding: 35px 0 40px 0;
 }
+
 .private-loan-program-item {
     background: #F7F6F6;
     border-bottom: 1px solid #A59C8D;
@@ -432,22 +442,26 @@ header {
     height: 125px;
     border-radius: 2px;
 }
+
 .private-loan-program-item-content {
     color: #A59C8D;
     font-size: 14px;
     font-weight: 600;
     line-height: 24px;
 }
+
 .private-loan-program-image {
     background-image: url("../images/private-loan-program-image.png");
     height: 200px;
     margin-bottom: 40px;
 }
+
 .commercial-loan-program-item {
     background-color: #E7EAEB;
     border-bottom: 1px solid #3E5F69;
     border-radius: 2px;
 }
+
 .commercial-loan-program-heading {
     color: #3E5F69;
 }
@@ -460,6 +474,7 @@ header {
     margin: auto;
     text-align: center;
     border-radius: 4px;
+    margin-bottom: 60px;
 }
 
 .newsletter-heading {
@@ -468,20 +483,139 @@ header {
     text-transform: uppercase;
     color: #1F2B2B;
 }
+
 .newsletter-content {
     color: #857867;
 }
+
 .newsletter-paragraph {
     font-size: 12px;
     font-weight: 400;
     padding: 24px 0;
     text-align: left;
 }
+
 .newsletter-submit-button {
     width: 100%;
     background-color: #3E5F69;
     border: 1px solid #857867;
     color: #FAFAFA;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.custom-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* Active Tab Styling */
+.active-tab {
+    background-color: #7c7368 !important; /* Light brown shade */
+    color: white !important;
+    border-color: #7c7368 !important;
+}
+
+.blog-button-wrapper {
+    gap: 20px;
+    background-color: #E7EAEB;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.blog-btn {
+    background: none;
+    border: 1px solid #857867;
+    font-size: 14px;
+    color: #857867;
+    min-width: 155px;
+}
+
+.back-to-blog {
+    display: flex;
+    gap: 5px;
+    align-items: baseline;
+}
+
+.back-to-blog:hover {
+    border-bottom: unset;
+    padding: unset;
+    text-decoration: underline;
+}
+
+.blog-image {
+    background-image: url("../images/article-blog-image.png");
+    height: 400px;
+    margin: 40px 0 20px 0;
+}
+
+.blog-article-heading {
+    background-color: #F7F6F6;
+}
+
+.article-blog-content {
+    padding: 40px 0 80px 0;
+}
+
+.show-text-quotes {
+    background-color: #E9E7E4;
+}
+
+.show-text-quotes-wrapper {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.show-text-quotes-content {
+    padding: 25px;
+}
+.apply-and-get-container {
+    padding: 32px 0 60px 0;
+}
+.apply-and-get-heading {
+    text-transform: uppercase;
+}
+
+.apply-get-qualified-wrapper {
+    min-width: 595px;
+    width: 595px;
+}
+.verify-your-loan-program {
+    background-color: #FAFAFA33;
+    border: 1px solid #A59C8D;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.verify-your-loan-program-content {
+    font-size: 14px;
+    font-weight: 400;
+    color: #857867;
+}
+.ltv-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+.ltv-label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #857867;
+}
+.submit-content {
+    padding-bottom: 20px;
+    font-size: 12px;
+}
+.apply-and-get-image-content {
+    max-width: 385px;
+}
+.apply-and-get-content {
+    padding: 20px 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1F2B2B;
 }
 
 

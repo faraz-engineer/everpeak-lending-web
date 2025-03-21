@@ -1,5 +1,18 @@
 <script setup>
+import { ref } from "vue";
 
+const tabs = ref([
+    "All",
+    "Latest News",
+    "Tips and Advice",
+    "Market Intel",
+    "Rental",
+    "Trends",
+    "Fix and Flip",
+    "Construction",
+]);
+
+const activeTab = ref("All");
 </script>
 <template>
     <section class="from-the-blog-section">
@@ -82,6 +95,109 @@
                 </form>
             </div>
 
+        </div>
+    </section>
+    <section class="blog-buttons">
+        <div class="responsive-container">
+            <div class="position-relative w-100">
+                <div class="d-flex overflow-x-auto custom-scrollbar blog-button-wrapper">
+                    <button
+                        v-for="tab in tabs"
+                        :key="tab"
+                        @click="activeTab = tab"
+                        class="common-button blog-btn"
+                        :class="{ 'active-tab': activeTab === tab }"
+                    >
+                        {{ tab }}
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="from-the-blog-section">
+        <div class="responsive-container">
+            <div class="blog-card-wrapper d-flex align-items-center justify-content-center gap-4 flex-wrap pt-0">
+                <div class="blog-card">
+                    <img src="~/assets/images/from-blog-image-1.png" alt="Blog Image" class="card-image">
+                    <div class="blog-card-content">
+                        <div class="card-content d-flex align-items-center justify-content-between">
+                            <p class="featured-label">FEATURED PROJECT</p>
+                            <span class="author-date">Author’s Name - DD/MM/YYYY</span>
+                        </div>
+                        <h2 class="blog-title card-heading p-0">BLOG’S TITLE GOES HERE IN ONE OR TWO LINES IF
+                            NEEDED
+                        </h2>
+                        <a class="navbar-link" href="#">Read more</a>
+                    </div>
+                </div>
+
+                <div class="blog-card">
+                    <img src="~/assets/images/from-blog-image-2.png" alt="Blog Image" class="card-image">
+                    <div class="blog-card-content">
+                        <div class="card-content d-flex align-items-center justify-content-between">
+                            <p class="featured-label">LATEST NEWS</p>
+                            <span class="author-date">Author’s Name - DD/MM/YYYY</span>
+                        </div>
+                        <h2 class="blog-title card-heading p-0">BLOG’S TITLE GOES HERE IN ONE OR TWO LINES IF
+                            NEEDED
+                        </h2>
+                        <a class="navbar-link" href="#">Read more</a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <img src="~/assets/images/blog-image-2.png" alt="Blog Image" class="card-image">
+                    <div class="blog-card-content">
+                        <div class="card-content d-flex align-items-center justify-content-between">
+                            <p class="featured-label">FEATURED PROJECT</p>
+                            <span class="author-date">Author’s Name - DD/MM/YYYY</span>
+                        </div>
+                        <h2 class="blog-title card-heading p-0">BLOG’S TITLE GOES HERE IN ONE OR TWO LINES IF
+                            NEEDED
+                        </h2>
+                        <a class="navbar-link" href="#">Read more</a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <img src="~/assets/images/from-blog-image-3.png" alt="Blog Image" class="card-image">
+                    <div class="blog-card-content">
+                        <div class="card-content d-flex align-items-center justify-content-between">
+                            <p class="featured-label">LATEST NEWS</p>
+                            <span class="author-date">Author’s Name - DD/MM/YYYY</span>
+                        </div>
+                        <h2 class="blog-title card-heading p-0">BLOG’S TITLE GOES HERE IN ONE OR TWO LINES IF
+                            NEEDED
+                        </h2>
+                        <a class="navbar-link" href="#">Read more</a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <img src="~/assets/images/blog-image-4.png" alt="Blog Image" class="card-image">
+                    <div class="blog-card-content">
+                        <div class="card-content d-flex align-items-center justify-content-between">
+                            <p class="featured-label">LATEST NEWS</p>
+                            <span class="author-date">Author’s Name - DD/MM/YYYY</span>
+                        </div>
+                        <h2 class="blog-title card-heading p-0">BLOG’S TITLE GOES HERE IN ONE OR TWO LINES IF
+                            NEEDED
+                        </h2>
+                        <a class="navbar-link" href="#">Read more</a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <img src="~/assets/images/blog-image-5.png" alt="Blog Image" class="card-image">
+                    <div class="blog-card-content">
+                        <div class="card-content d-flex align-items-center justify-content-between">
+                            <p class="featured-label">LATEST NEWS</p>
+                            <span class="author-date">Author’s Name - DD/MM/YYYY</span>
+                        </div>
+                        <h2 class="blog-title card-heading p-0">BLOG’S TITLE GOES HERE IN ONE OR TWO LINES IF
+                            NEEDED
+                        </h2>
+                        <a class="navbar-link" href="#">Read more</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 </template>
