@@ -2442,7 +2442,7 @@ const sources$1 = [
         },
         "urls": [
             {
-                "loc": "/apply"
+                "loc": "/about"
             },
             {
                 "loc": "/blog"
@@ -2451,7 +2451,7 @@ const sources$1 = [
                 "loc": "/"
             },
             {
-                "loc": "/investors"
+                "loc": "/programs"
             }
         ],
         "sourceType": "app"

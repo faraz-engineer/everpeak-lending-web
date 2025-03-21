@@ -18,16 +18,16 @@
                            <a class="navbar-link" href="#">Apply</a>
                        </li>
                        <li>
-                           <a class="navbar-link" href="#">About</a>
+                           <a class="navbar-link" href="/about">About</a>
                        </li>
                        <li>
-                           <a class="navbar-link" href="#">Programs</a>
+                           <a class="navbar-link" href="/programs">Programs</a>
                        </li>
                        <li>
                            <a class="navbar-link" href="#">Invest</a>
                        </li>
                        <li>
-                           <a class="navbar-link" href="#">Blog</a>
+                           <a class="navbar-link" href="/blog">Blog</a>
                        </li>
                        <li>
                            <button class="common-button header-button">

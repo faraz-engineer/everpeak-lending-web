@@ -41,7 +41,7 @@ onMounted(() => {
             <div class="everpeak-categories-wrapper d-flex  justify-content-center gap-4">
                 <div class="four-categories-cards">
                     <div class="speed-category-card">
-                        <img src="~/assets/images/speed-image.png" class="img-fluid" alt="speed-image">
+                        <img src="~/assets/images/speed-image.png" class="img-fluid speed-image" alt="speed-image">
                         <h2 class="card-heading">Speed</h2>
                     </div>
                     <div class="flexibility-category-card">
@@ -59,7 +59,8 @@ onMounted(() => {
                 </div>
                 <div class="speed-content">
                     <h1 class="common-heading">SPEED</h1>
-                    <p class="common-paragraph pt-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed arcu leo,
+                    <p class="common-paragraph pt-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed arcu
+                        leo,
                         vehicula ac ex eu, fermentum pharetra orci. Nunc semper, ligula eget placerat sollicitudin,
                         felis lacus accumsan dui, eget rhoncus massa nulla in dolor. Sed tempor maximus neque, et
                         facilisis enim bibendum sed.
@@ -72,8 +73,6 @@ onMounted(() => {
             </div>
         </div>
     </section>
-
-
     <section class="lending-criteria-section">
         <div class="responsive-container">
             <div class="lending-criteria-wrapper">
@@ -97,7 +96,246 @@ onMounted(() => {
             </div>
         </div>
     </section>
+    <section class="from-the-blog-section">
+        <div class="responsive-container">
+            <h1 class="blog-heading">FROM THE BLOG</h1>
+            <div class="blog-card-wrapper d-flex align-items-center justify-content-center gap-4 flex-wrap">
+                <div class="blog-card">
+                    <img src="~/assets/images/blog-image-1.png" alt="Blog Image" class="card-image">
+                    <div class="blog-card-content">
+                        <div class="card-content d-flex align-items-center justify-content-between">
+                            <p class="featured-label">FEATURED PROJECT</p>
+                            <span class="author-date">Author’s Name - DD/MM/YYYY</span>
+                        </div>
+                        <h2 class="blog-title card-heading p-0">BLOG’S TITLE GOES HERE IN ONE OR TWO LINES IF
+                            NEEDED
+                        </h2>
+                        <a class="navbar-link" href="#">Read more</a>
+                    </div>
+                </div>
 
+                <div class="blog-card">
+                    <img src="~/assets/images/blog-image-2.png" alt="Blog Image" class="card-image">
+                    <div class="blog-card-content">
+                        <div class="card-content d-flex align-items-center justify-content-between">
+                            <p class="featured-label">LATEST NEWS</p>
+                            <span class="author-date">Author’s Name - DD/MM/YYYY</span>
+                        </div>
+                        <h2 class="blog-title card-heading p-0">BLOG’S TITLE GOES HERE IN ONE OR TWO LINES IF
+                            NEEDED
+                        </h2>
+                        <a class="navbar-link" href="#">Read more</a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <img src="~/assets/images/blog-image-3.png" alt="Blog Image" class="card-image">
+                    <div class="blog-card-content">
+                        <div class="card-content d-flex align-items-center justify-content-between">
+                            <p class="featured-label">FEATURED PROJECT</p>
+                            <span class="author-date">Author’s Name - DD/MM/YYYY</span>
+                        </div>
+                        <h2 class="blog-title card-heading p-0">BLOG’S TITLE GOES HERE IN ONE OR TWO LINES IF
+                            NEEDED
+                        </h2>
+                        <a class="navbar-link" href="#">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="why-choose-everpeak">
+        <div class="responsive-container">
+            <div class="why-choose-everpeak-wrapper d-flex justify-content-between">
+                <div class="why-choose-everpeak-content">
+                    <div class="d-flex align-items-center gap-2">
+                        <h1 class="common-heading p-0">BUT... WHY CHOOSING</h1>
+                        <img src="~/assets/images/ever-peak-image.png" alt="ever-peak-image.png">
+                    </div>
+                    <p class="common-paragraph p-0">We simplify the Loan process into 4 simple steps:</p>
+                    <div class="why-choose-everpeak-points">
+                        <div class="why-choose-everpeak-points-content">
+                            <h3 class="points-no card-heading p-0 m-0">1</h3>
+                            <h4 class="points-title m-0">SUBMIT PRE-QUAL</h4>
+                        </div>
+                        <p class="common-paragraph p-0">Fill out the form below to get started. We'll be in touch with
+                            you
+                            shortly!
+                        </p>
+                    </div>
+                    <div class="why-choose-everpeak-points">
+                        <div class="why-choose-everpeak-points-content">
+                            <h3 class="points-no card-heading p-0 m-0">2</h3>
+                            <h4 class="points-title m-0">Complete Quick Application Form</h4>
+                        </div>
+                        <p class="common-paragraph p-0">Fill out this quick application form, and we'll contact you
+                            shortly.
+                        </p>
+                    </div>
+                    <div class="why-choose-everpeak-points">
+                        <div class="why-choose-everpeak-points-content">
+                            <h3 class="points-no card-heading p-0 m-0">3</h3>
+                            <h4 class="points-title m-0">Schedule Call with Loan Origination Team</h4>
+                        </div>
+                        <p class="common-paragraph p-0">Schedule a call with our loan origination team for personalized
+                            assistance.</p>
+                    </div>
+                    <div class="why-choose-everpeak-points">
+                        <div class="why-choose-everpeak-points-content">
+                            <h3 class="points-no card-heading p-0 m-0">4</h3>
+                            <h4 class="points-title m-0">Complete Financing</h4>
+                        </div>
+                        <p class="common-paragraph p-0">Complete your financing with our straightforward and efficient
+                            application process.</p>
+                    </div>
+                    <button class="common-button get-started-button">GET STARTED</button>
+                </div>
+                <div class="why-choose-everpeak-image">
+                    <img src="~/assets/images/why-choos-everpeak-image.png" alt="why-choose-everpeak-image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="our-private-investment">
+        <div class="responsive-container">
+            <h1 class="blog-heading">SEE THE REAL-WORLD IMPACT OF</h1>
+            <h1 class="blog-heading">OUR PRIVATE INVESTMENT PROPERTY LOANS</h1>
+            <div class="blog-card-wrapper d-flex align-items-center justify-content-center gap-4 flex-wrap">
+                <div class="blog-card our-private-investment-card">
+                    <img src="~/assets/images/our-private-investment-1.png" alt="Blog Image" class="card-image">
+                    <div class="our-private-investment-card-content p-4">
+                        <div class="info">
+                            <div class="label">Loan Amount</div>
+                            <div class="value">$3.4M</div>
+                        </div>
+                        <div class="info">
+                            <div class="label">Closing Time</div>
+                            <div class="value">9 Days</div>
+                        </div>
+                        <div class="info">
+                            <div class="label">Loan Type</div>
+                            <div class="value">Construction Loan</div>
+                        </div>
+                        <div class="info">
+                            <div class="label">Location</div>
+                            <div class="value">Rockaway, NJ</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="blog-card our-private-investment-card">
+                    <img src="~/assets/images/our-private-investment-2.png" alt="Blog Image" class="card-image">
+                    <div class="our-private-investment-card-content p-4">
+                        <div class="info">
+                            <div class="label">Loan Amount</div>
+                            <div class="value">$3.4M</div>
+                        </div>
+                        <div class="info">
+                            <div class="label">Closing Time</div>
+                            <div class="value">9 Days</div>
+                        </div>
+                        <div class="info">
+                            <div class="label">Loan Type</div>
+                            <div class="value">Construction Loan</div>
+                        </div>
+                        <div class="info">
+                            <div class="label">Location</div>
+                            <div class="value">Rockaway, NJ</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-card our-private-investment-card">
+                    <img src="~/assets/images/our-private-investment-3.png" alt="Blog Image" class="card-image">
+                    <div class="our-private-investment-card-content p-4">
+                        <div class="info">
+                            <div class="label">Loan Amount</div>
+                            <div class="value">$3.4M</div>
+                        </div>
+                        <div class="info">
+                            <div class="label">Closing Time</div>
+                            <div class="value">9 Days</div>
+                        </div>
+                        <div class="info">
+                            <div class="label">Loan Type</div>
+                            <div class="value">Construction Loan</div>
+                        </div>
+                        <div class="info">
+                            <div class="label">Location</div>
+                            <div class="value">Rockaway, NJ</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="become-an-investor">
+        <div class="responsive-container">
+            <div class="become-an-investor-wrapper">
+                <div class="card p-4 shadow become-an-investor-card">
+                    <h2 class="blog-heading pb-3">BECOME AN INVESTOR</h2>
+                    <form>
+                        <div class="row mb-3">
+                            <div class="col">
+                                <input type="text" class="form-control investor-input-text"
+                                       placeholder="Name (required)" required>
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control investor-input-text"
+                                       placeholder="Last name (required)" required>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col">
+                                <input type="email" class="form-control investor-input-text"
+                                       placeholder="Email (required)" required>
+                            </div>
+                            <div class="col">
+                                <input type="tel" class="form-control investor-input-text"
+                                       placeholder="Phone number (required)" required>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <select class="form-select investor-input-text">
+                                <option selected>Select a Loan Program</option>
+                            </select>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-auto">
+                                <label class="form-label investor-form-label investor-input-text p-0">Any active deal(s)
+                                    that need funding?
+                                </label>
+                                <div class="radio-check-button-wrapper">
+                                    <div class="radio-check-button">
+                                        <input type="radio" id="yes" name="funding" class="form-check-input">
+                                        <label for="yes"
+                                               class="form-check-label investor-form-label investor-input-text p-0 radio-label">Yes</label>
+                                    </div>
+                                    <div class="radio-check-button">
+                                        <input type="radio" id="no" name="funding" class="form-check-input">
+                                        <label for="no"
+                                               class="form-check-label investor-form-label investor-input-text p-0 radio-label">No</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <label class="form-label investor-form-label investor-input-text p-0">Experience (number
+                                    of deals sold)</label>
+                                <select class="form-select investor-input-text">
+                                    <option selected>Beginner (0 to 4 deals)</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control investor-input-text" rows="4"
+                                      placeholder="Describe the deal summary"></textarea>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="investor-form-button">
+                <button class="common-button submit-button">SUBMIT</button>
+            </div>
+        </div>
+    </section>
 
 </template>
 
