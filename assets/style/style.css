@@ -478,7 +478,9 @@ header {
     border-radius: 4px;
     margin-bottom: 60px;
 }
-
+.our-mission-wrapper {
+    align-items: end;
+}
 .newsletter-heading {
     font-size: 16px;
     font-weight: 600;
@@ -634,6 +636,7 @@ footer {
 .footer-button {
     gap: 40px;
     width: 40%;
+    align-items: end;
 }
 
 .footer-button button {

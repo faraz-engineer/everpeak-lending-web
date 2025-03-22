@@ -35,7 +35,7 @@
     </section>
     <section class="our-mission">
         <div class="responsive-container">
-            <div class="our-mission-wrapper d-flex justify-content-between align-items-end">
+            <div class="our-mission-wrapper d-flex justify-content-between">
                 <div class="our-mission-content">
                     <p class="about-title">OUR MISSION</p>
                     <p class="about-info m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id

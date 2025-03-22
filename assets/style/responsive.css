@@ -2,7 +2,30 @@
     .header-wrapper {
         margin: 0 30px;
     }
+    .blog-heading {
+        padding-left: 20px;
+        padding-top: 20px;
+    }
 
+    .about-us-wrapper {
+        padding: 20px;
+    }
+    .our-mission-wrapper {
+        padding: 20px;
+    }
+    .what-difference-about {
+        padding: 20px;
+    }
+    .footer-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .blog-card-wrapper {
+        padding-left: 20px;
+    }
+    .blog-card {
+        max-width: 47%;
+    }
 }
 
 
@@ -53,6 +76,125 @@
         display: block;
     }
 
+    .real-estate-wrapper {
+        flex-direction: column;
+        gap: 20px;
+        padding: 40px 20px;
+    }
+
+    .real-estate-content {
+        max-width: unset;
+        width: 100%;
+    }
+    .our-mission-wrapper {
+        align-items: unset;
+    }
+
+    .why-choose-everpeak-wrapper {
+        flex-direction: column;
+        padding: 0 20px;
+        gap: 20px;
+    }
+
+    .why-choose-everpeak-content {
+        min-width: unset;
+        width: 100%;
+    }
+
+    .why-choose-everpeak-image {
+        padding-bottom: 30px;
+    }
+
+    .our-private-investment {
+        padding: 0 20px;
+    }
+
+    .become-an-investor-wrapper {
+        padding: 30px 20px;
+    }
+
+    .investor-form-button {
+        margin: unset;
+        padding: 0 20px 30px 20px;
+    }
+
+    .footer-container {
+        padding: 30px 20px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-content {
+        max-width: unset;
+    }
+
+    .copyright-wrapper {
+        padding:20px 20px 0 20px;
+    }
+
+    .blog-heading {
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+
+    .lending-criteria-content {
+        padding: 50px 20px;
+    }
+
+    .everpeak-categories-wrapper {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 20px;
+    }
+
+    .speed-content {
+        max-width: unset;
+    }
+    .know-our-program-wrapper {
+        padding: 30px 20px;
+    }
+
+    .private-loan-program-wrapper {
+        padding: 30px 20px;
+    }
+
+    .about-us-wrapper {
+        padding: 30px 20px;
+        flex-direction: column;
+    }
+
+    .our-mission-wrapper {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 20px;
+    }
+
+    .apply-and-get-container {
+        padding: 15px;
+    }
+    .apply-and-get-image-content {
+        display: none;
+    }
+
+    .apply-get-qualified-wrapper {
+        width: unset;
+    }
+  .footer-button {
+      width: 200px;
+      align-items: flex-start !important;
+  }
+  .real-estate-image {
+      display: none;
+  }
+  .blog-card-wrapper {
+      padding-left: 20px;
+      justify-content: unset !important;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -64,10 +206,6 @@
 
     .real-estate-content {
         max-width: unset;
-        width: 100%;
-    }
-
-    .real-estate-button {
         width: 100%;
     }
 
@@ -98,10 +236,6 @@
         padding: 30px 20px;
     }
 
-    .submit-button {
-        width: 100%;
-    }
-
     .investor-form-button {
         margin: unset;
         padding: 0 20px 30px 20px;
@@ -117,9 +251,6 @@
         max-width: unset;
     }
 
-    .footer-button {
-        width: 100%;
-    }
 
     .footer-btn {
         width: 100%;
@@ -136,7 +267,6 @@
     }
 
     .lending-criteria-content {
-        text-align: center;
         padding: 50px 20px;
     }
 
@@ -150,9 +280,6 @@
         max-width: unset;
     }
 
-    .real-estate--button-wrapper {
-        flex-direction: column;
-    }
 
     .know-our-program-wrapper {
         padding: 30px 20px;
@@ -194,6 +321,32 @@
     .four-categories-cards {
         gap: 15px;
     }
+    .common-heading {
+        padding-bottom: 10px;
+    }
+    .blog-card-wrapper {
+        padding: 50px 15px;
+    }
+    .blog-card {
+        width: 100%;
+        max-width: unset;
+    }
+    .common-heading {
+        font-size: 26px;
+    }
+
+    .blog-heading, .card-heading {
+        font-size: 22px;
+    }
+
+    .common-paragraph, .about-title, .about-paragraph {
+        font-size: 16px;
+    }
+
+    .points-title, .grid-heading {
+        font-size: 18px;
+    }
+
 }
 
 @media only screen and (max-width: 576px) {
@@ -209,7 +362,7 @@
     }
 
     .real-estate-button {
-        width: 100%;
+        max-width: 200px;
     }
 
     .why-choose-everpeak-wrapper {
@@ -239,10 +392,6 @@
         padding: 30px 20px;
     }
 
-    .submit-button {
-        width: 100%;
-    }
-
     .investor-form-button {
         margin: unset;
         padding: 0 20px 30px 20px;
@@ -258,13 +407,7 @@
         max-width: unset;
     }
 
-    .footer-button {
-        width: 100%;
-    }
 
-    .footer-btn {
-        width: 100%;
-    }
 
     .copyright-wrapper {
         flex-direction: column-reverse;

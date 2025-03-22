@@ -18,7 +18,7 @@ const activeTab = ref("All");
     <section class="from-the-blog-section">
         <div class="responsive-container">
             <h1 class="blog-heading">BLOG</h1>
-            <div class="blog-card-wrapper d-flex align-items-center justify-content-center gap-4 flex-wrap">
+            <div class="blog-card-wrapper d-flex align-items-center gap-4 flex-wrap">
                 <div class="blog-card">
                     <img src="~/assets/images/blog-image-1.png" alt="Blog Image" class="card-image">
                     <div class="blog-card-content">

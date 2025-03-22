@@ -43,7 +43,7 @@
                     </ul>
                 </div>
 
-                <div class="footer-button d-flex align-items-end flex-column">
+                <div class="footer-button d-flex flex-column">
                     <button class="common-button header-button footer-btn">
                         I’M A BROKER
                     </button>

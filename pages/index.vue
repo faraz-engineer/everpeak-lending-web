@@ -11,7 +11,7 @@ onMounted(() => {
     if (swiperContainer.value) {
         new Swiper(swiperContainer.value, {
             modules: [Pagination],
-            slidesPerView: 1,
+            slidesPerView: 3,
             spaceBetween: 25,
             grabCursor: true,
             pagination: {
@@ -38,7 +38,7 @@ onMounted(() => {
                     </p>
                     <p class="common-paragraph p-0">You know what you’re looking for.</p>
                     <p class="common-paragraph pb-4 p-0">We know how to get you there.</p>
-                    <div class="real-estate--button-wrapper d-flex align-items-center gap-4">
+                    <div class="real-estate--button-wrapper d-flex gap-4">
                         <button class="common-button real-estate-button">
                             I’M A BROKER
                         </button>
@@ -117,7 +117,7 @@ onMounted(() => {
     <section class="from-the-blog-section">
         <div class="responsive-container">
             <h1 class="blog-heading">FROM THE BLOG</h1>
-            <div class="blog-card-wrapper d-flex align-items-center justify-content-center gap-4 flex-wrap">
+            <div class="blog-card-wrapper d-flex align-items-center gap-4 flex-wrap">
                 <div class="blog-card">
                     <img src="~/assets/images/blog-image-1.png" alt="Blog Image" class="card-image">
                     <div class="blog-card-content">
@@ -282,8 +282,91 @@ onMounted(() => {
                             </div>
                         </div>
                     </div>
+                    <div class="blog-card our-private-investment-card swiper-slide">
+                        <img src="~/assets/images/blog-image-1.png" alt="Blog Image" class="card-image">
+                        <div class="our-private-investment-card-content p-4">
+                            <div class="info">
+                                <div class="label">Loan Amount</div>
+                                <div class="value">$3.4M</div>
+                            </div>
+                            <div class="info">
+                                <div class="label">Closing Time</div>
+                                <div class="value">9 Days</div>
+                            </div>
+                            <div class="info">
+                                <div class="label">Loan Type</div>
+                                <div class="value">Construction Loan</div>
+                            </div>
+                            <div class="info">
+                                <div class="label">Location</div>
+                                <div class="value">Rockaway, NJ</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-card our-private-investment-card swiper-slide">
+                        <img src="~/assets/images/blog-image-2.png" alt="Blog Image" class="card-image">
+                        <div class="our-private-investment-card-content p-4">
+                            <div class="info">
+                                <div class="label">Loan Amount</div>
+                                <div class="value">$3.4M</div>
+                            </div>
+                            <div class="info">
+                                <div class="label">Closing Time</div>
+                                <div class="value">9 Days</div>
+                            </div>
+                            <div class="info">
+                                <div class="label">Loan Type</div>
+                                <div class="value">Construction Loan</div>
+                            </div>
+                            <div class="info">
+                                <div class="label">Location</div>
+                                <div class="value">Rockaway, NJ</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-card our-private-investment-card swiper-slide">
+                        <img src="~/assets/images/blog-image-3.png" alt="Blog Image" class="card-image">
+                        <div class="our-private-investment-card-content p-4">
+                            <div class="info">
+                                <div class="label">Loan Amount</div>
+                                <div class="value">$3.4M</div>
+                            </div>
+                            <div class="info">
+                                <div class="label">Closing Time</div>
+                                <div class="value">9 Days</div>
+                            </div>
+                            <div class="info">
+                                <div class="label">Loan Type</div>
+                                <div class="value">Construction Loan</div>
+                            </div>
+                            <div class="info">
+                                <div class="label">Location</div>
+                                <div class="value">Rockaway, NJ</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-card our-private-investment-card swiper-slide">
+                        <img src="~/assets/images/from-blog-image-1.png" alt="Blog Image" class="card-image">
+                        <div class="our-private-investment-card-content p-4">
+                            <div class="info">
+                                <div class="label">Loan Amount</div>
+                                <div class="value">$3.4M</div>
+                            </div>
+                            <div class="info">
+                                <div class="label">Closing Time</div>
+                                <div class="value">9 Days</div>
+                            </div>
+                            <div class="info">
+                                <div class="label">Loan Type</div>
+                                <div class="value">Construction Loan</div>
+                            </div>
+                            <div class="info">
+                                <div class="label">Location</div>
+                                <div class="value">Rockaway, NJ</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="swiper-pagination"></div>
             </div>
 
         </div>
