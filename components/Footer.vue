@@ -6,7 +6,7 @@
 
     <footer>
         <div class="responsive-container">
-            <div class="d-flex justify-content-between align-items-start footer-wrapper">
+            <div class="footer-container d-flex justify-content-between align-items-start footer-wrapper">
                 <div class="footer-content">
                     <div class="header-logo footer-logo">
                         <a href="/">
@@ -23,8 +23,8 @@
                         info@everpeaklending.com
                     </p>
                 </div>
-                <div class="navbar-user-link">
-                    <ul class="d-flex justify-content-center flex-column gap-4 m-0 p-0">
+                <div class="footer-links">
+                    <ul class="d-flex justify-content-center flex-column gap-4 m-0 p-0 list-unstyled">
                         <li>
                             <a class="navbar-link footer-link" href="#">About</a>
                         </li>
@@ -44,10 +44,10 @@
                 </div>
 
                 <div class="footer-button d-flex align-items-end flex-column">
-                    <button class="common-button header-button">
+                    <button class="common-button header-button footer-btn">
                         I’M A BROKER
                     </button>
-                    <button class="common-button header-button">
+                    <button class="common-button header-button footer-btn">
                         I’M A BORROWER
                     </button>
                 </div>

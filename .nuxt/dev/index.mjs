@@ -2445,6 +2445,12 @@ const sources$1 = [
                 "loc": "/about"
             },
             {
+                "loc": "/apply"
+            },
+            {
+                "loc": "/article"
+            },
+            {
                 "loc": "/blog"
             },
             {

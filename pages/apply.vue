@@ -25,7 +25,7 @@
                             our criteria, please provide specific loan and property amounts:
                         </p>
                         <div class="row g-3">
-                            <div class="col-md-6">
+                            <div class="col-sm-12 col-md-6">
                                 <label class="form-label  investor-form-label investor-input-text p-0">Loan amount
                                     (required)</label>
                                 <div class="input-group">
@@ -34,7 +34,7 @@
                                            value="0.00">
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-sm-12 col-md-6">
                                 <label class="form-label  investor-form-label investor-input-text p-0">Property value
                                     (required)</label>
                                 <div class="input-group">
@@ -61,22 +61,22 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row mb-3">
-                        <div class="col">
+                    <div class="row mb-3 input-wrapper">
+                        <div class="col-sm-12 col-md-6">
                             <input type="text" class="form-control investor-input-text"
                                    placeholder="Name (required)" required>
                         </div>
-                        <div class="col">
+                        <div class="col-sm-12 col-md-6">
                             <input type="text" class="form-control investor-input-text"
                                    placeholder="Last name (required)" required>
                         </div>
                     </div>
-                    <div class="row mb-3">
-                        <div class="col">
+                    <div class="row mb-3 input-wrapper">
+                        <div class="col-sm-12 col-md-6">
                             <input type="email" class="form-control investor-input-text"
                                    placeholder="Email (required)" required>
                         </div>
-                        <div class="col">
+                        <div class="col-sm-12 col-md-6">
                             <input type="tel" class="form-control investor-input-text"
                                    placeholder="Phone number (required)" required>
                         </div>

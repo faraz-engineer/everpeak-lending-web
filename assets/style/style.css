@@ -427,6 +427,7 @@ header {
     background-image: url("../images/know-our-program-image.png");
     height: 200px;
     margin-bottom: 40px;
+    background-position: center;
 }
 
 .private-loan-program-wrapper {
@@ -454,6 +455,7 @@ header {
     background-image: url("../images/private-loan-program-image.png");
     height: 200px;
     margin-bottom: 40px;
+    background-position: center;
 }
 
 .commercial-loan-program-item {
@@ -617,8 +619,13 @@ header {
     font-weight: 400;
     color: #1F2B2B;
 }
+.responsive-images {
+    width: 40px;
+}
 
-
+.hamburger-images {
+    display: none;
+}
 
 footer {
     background-color: #1F2B2B;

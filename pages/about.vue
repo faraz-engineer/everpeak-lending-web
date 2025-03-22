@@ -55,7 +55,7 @@
     </section>
     <section class="what-difference-about">
         <div class="responsive-container">
-            <div class="d-flex align-items-center gap-2">
+            <div class="d-flex align-items-center gap-2 why-choose-everpeak-heading">
                 <h1 class="blog-heading p-0">WHAT’S DIFFERENT ABOUT</h1>
                 <img src="~/assets/images/ever-peak-image.png" alt="ever-peak-image.png">
             </div>

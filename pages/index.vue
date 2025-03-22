@@ -1,9 +1,27 @@
 <script setup>
-import {ref, onMounted} from 'vue'
+import {ref, onMounted} from "vue";
+import Swiper from "swiper";
+import "swiper/css";
+import "swiper/css/pagination";
+import {Pagination} from "swiper/modules";
+
+const swiperContainer = ref(null);
 
 onMounted(() => {
-
-})
+    if (swiperContainer.value) {
+        new Swiper(swiperContainer.value, {
+            modules: [Pagination],
+            slidesPerView: 1,
+            spaceBetween: 25,
+            grabCursor: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            loop: true,
+        });
+    }
+});
 
 </script>
 
@@ -20,7 +38,7 @@ onMounted(() => {
                     </p>
                     <p class="common-paragraph p-0">You know what you’re looking for.</p>
                     <p class="common-paragraph pb-4 p-0">We know how to get you there.</p>
-                    <div class="d-flex align-items-center gap-4">
+                    <div class="real-estate--button-wrapper d-flex align-items-center gap-4">
                         <button class="common-button real-estate-button">
                             I’M A BROKER
                         </button>
@@ -147,7 +165,7 @@ onMounted(() => {
         <div class="responsive-container">
             <div class="why-choose-everpeak-wrapper d-flex justify-content-between">
                 <div class="why-choose-everpeak-content">
-                    <div class="d-flex align-items-center gap-2">
+                    <div class="why-choose-everpeak-heading d-flex align-items-center gap-2">
                         <h1 class="common-heading p-0">BUT... WHY CHOOSING</h1>
                         <img src="~/assets/images/ever-peak-image.png" alt="ever-peak-image.png">
                     </div>
@@ -190,7 +208,7 @@ onMounted(() => {
                     <button class="common-button get-started-button">GET STARTED</button>
                 </div>
                 <div class="why-choose-everpeak-image">
-                    <img src="~/assets/images/why-choos-everpeak-image.png" alt="why-choose-everpeak-image">
+                    <img class="img-fluid" src="~/assets/images/why-choos-everpeak-image.png" alt="why-choose-everpeak-image">
                 </div>
             </div>
         </div>
@@ -199,72 +217,75 @@ onMounted(() => {
         <div class="responsive-container">
             <h1 class="blog-heading">SEE THE REAL-WORLD IMPACT OF</h1>
             <h1 class="blog-heading">OUR PRIVATE INVESTMENT PROPERTY LOANS</h1>
-            <div class="blog-card-wrapper d-flex align-items-center justify-content-center gap-4 flex-wrap">
-                <div class="blog-card our-private-investment-card">
-                    <img src="~/assets/images/our-private-investment-1.png" alt="Blog Image" class="card-image">
-                    <div class="our-private-investment-card-content p-4">
-                        <div class="info">
-                            <div class="label">Loan Amount</div>
-                            <div class="value">$3.4M</div>
+            <div class="blog-card-wrapper swiper" ref="swiperContainer">
+                <div class="swiper-wrapper">
+                    <div class="blog-card our-private-investment-card swiper-slide">
+                        <img src="~/assets/images/our-private-investment-1.png" alt="Blog Image" class="card-image">
+                        <div class="our-private-investment-card-content p-4">
+                            <div class="info">
+                                <div class="label">Loan Amount</div>
+                                <div class="value">$3.4M</div>
+                            </div>
+                            <div class="info">
+                                <div class="label">Closing Time</div>
+                                <div class="value">9 Days</div>
+                            </div>
+                            <div class="info">
+                                <div class="label">Loan Type</div>
+                                <div class="value">Construction Loan</div>
+                            </div>
+                            <div class="info">
+                                <div class="label">Location</div>
+                                <div class="value">Rockaway, NJ</div>
+                            </div>
                         </div>
-                        <div class="info">
-                            <div class="label">Closing Time</div>
-                            <div class="value">9 Days</div>
+                    </div>
+                    <div class="blog-card our-private-investment-card swiper-slide">
+                        <img src="~/assets/images/our-private-investment-2.png" alt="Blog Image" class="card-image">
+                        <div class="our-private-investment-card-content p-4">
+                            <div class="info">
+                                <div class="label">Loan Amount</div>
+                                <div class="value">$3.4M</div>
+                            </div>
+                            <div class="info">
+                                <div class="label">Closing Time</div>
+                                <div class="value">9 Days</div>
+                            </div>
+                            <div class="info">
+                                <div class="label">Loan Type</div>
+                                <div class="value">Construction Loan</div>
+                            </div>
+                            <div class="info">
+                                <div class="label">Location</div>
+                                <div class="value">Rockaway, NJ</div>
+                            </div>
                         </div>
-                        <div class="info">
-                            <div class="label">Loan Type</div>
-                            <div class="value">Construction Loan</div>
-                        </div>
-                        <div class="info">
-                            <div class="label">Location</div>
-                            <div class="value">Rockaway, NJ</div>
+                    </div>
+                    <div class="blog-card our-private-investment-card swiper-slide">
+                        <img src="~/assets/images/our-private-investment-3.png" alt="Blog Image" class="card-image">
+                        <div class="our-private-investment-card-content p-4">
+                            <div class="info">
+                                <div class="label">Loan Amount</div>
+                                <div class="value">$3.4M</div>
+                            </div>
+                            <div class="info">
+                                <div class="label">Closing Time</div>
+                                <div class="value">9 Days</div>
+                            </div>
+                            <div class="info">
+                                <div class="label">Loan Type</div>
+                                <div class="value">Construction Loan</div>
+                            </div>
+                            <div class="info">
+                                <div class="label">Location</div>
+                                <div class="value">Rockaway, NJ</div>
+                            </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="blog-card our-private-investment-card">
-                    <img src="~/assets/images/our-private-investment-2.png" alt="Blog Image" class="card-image">
-                    <div class="our-private-investment-card-content p-4">
-                        <div class="info">
-                            <div class="label">Loan Amount</div>
-                            <div class="value">$3.4M</div>
-                        </div>
-                        <div class="info">
-                            <div class="label">Closing Time</div>
-                            <div class="value">9 Days</div>
-                        </div>
-                        <div class="info">
-                            <div class="label">Loan Type</div>
-                            <div class="value">Construction Loan</div>
-                        </div>
-                        <div class="info">
-                            <div class="label">Location</div>
-                            <div class="value">Rockaway, NJ</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="blog-card our-private-investment-card">
-                    <img src="~/assets/images/our-private-investment-3.png" alt="Blog Image" class="card-image">
-                    <div class="our-private-investment-card-content p-4">
-                        <div class="info">
-                            <div class="label">Loan Amount</div>
-                            <div class="value">$3.4M</div>
-                        </div>
-                        <div class="info">
-                            <div class="label">Closing Time</div>
-                            <div class="value">9 Days</div>
-                        </div>
-                        <div class="info">
-                            <div class="label">Loan Type</div>
-                            <div class="value">Construction Loan</div>
-                        </div>
-                        <div class="info">
-                            <div class="label">Location</div>
-                            <div class="value">Rockaway, NJ</div>
-                        </div>
-                    </div>
-                </div>
+                <div class="swiper-pagination"></div>
             </div>
+
         </div>
     </section>
     <section id="invest" class="become-an-investor">
@@ -273,22 +294,22 @@ onMounted(() => {
                 <div class="card p-4 shadow become-an-investor-card">
                     <h2 class="blog-heading pb-3">BECOME AN INVESTOR</h2>
                     <form>
-                        <div class="row mb-3">
-                            <div class="col">
+                        <div class="row mb-3 input-wrapper">
+                            <div class="col-sm-12 col-md-6">
                                 <input type="text" class="form-control investor-input-text"
                                        placeholder="Name (required)" required>
                             </div>
-                            <div class="col">
+                            <div class="col-sm-12 col-md-6">
                                 <input type="text" class="form-control investor-input-text"
                                        placeholder="Last name (required)" required>
                             </div>
                         </div>
-                        <div class="row mb-3">
-                            <div class="col">
+                        <div class="row mb-3 input-wrapper">
+                            <div class="col-sm-12 col-md-6">
                                 <input type="email" class="form-control investor-input-text"
                                        placeholder="Email (required)" required>
                             </div>
-                            <div class="col">
+                            <div class="col-sm-12 col-md-6">
                                 <input type="tel" class="form-control investor-input-text"
                                        placeholder="Phone number (required)" required>
                             </div>
@@ -341,5 +362,10 @@ onMounted(() => {
 
 
 <style scoped>
-
+.swiper-wrapper {
+    padding: 32px 0 50px 0;
+}
+.swiper-slide {
+    width: 384px !important;
+}
 </style>
