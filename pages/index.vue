@@ -60,7 +60,7 @@ onMounted(() => {
                 <div class="four-categories-cards">
                     <div class="speed-category-card">
                         <img src="~/assets/images/speed-image.png" class="img-fluid speed-image" alt="speed-image">
-                        <h2 class="card-heading">Speed</h2>
+                        <h2 class="card-heading">SPEED</h2>
                     </div>
                     <div class="flexibility-category-card">
                         <img src="~/assets/images/flexibility-image.png" class="img-fluid" alt="flexibility-image">
@@ -216,7 +216,7 @@ onMounted(() => {
     <section class="our-private-investment">
         <div class="responsive-container">
             <h1 class="blog-heading">SEE THE REAL-WORLD IMPACT OF</h1>
-            <h1 class="blog-heading">OUR PRIVATE INVESTMENT PROPERTY LOANS</h1>
+            <h1 class="blog-heading pt-1">OUR PRIVATE INVESTMENT PROPERTY LOANS</h1>
             <div class="blog-card-wrapper swiper" ref="swiperContainer">
                 <div class="swiper-wrapper">
                     <div class="blog-card our-private-investment-card swiper-slide">
