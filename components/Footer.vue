@@ -26,19 +26,19 @@
                 <div class="footer-links">
                     <ul class="d-flex justify-content-center flex-column gap-4 m-0 p-0 list-unstyled">
                         <li>
-                            <a class="navbar-link footer-link" href="#">About</a>
+                            <a class="navbar-link footer-link" href="/about">About</a>
                         </li>
 
                         <li>
-                            <a class="navbar-link footer-link" href="#">Programs</a>
+                            <a class="navbar-link footer-link" href="/programs">Programs</a>
                         </li>
 
                         <li>
-                            <a class="navbar-link footer-link" href="#">Invest</a>
+                            <a class="navbar-link footer-link" href="/#invest">Invest</a>
                         </li>
 
                         <li>
-                            <a class="navbar-link footer-link" href="#">Blog</a>
+                            <a class="navbar-link footer-link" href="/blog">Blog</a>
                         </li>
                     </ul>
                 </div>
