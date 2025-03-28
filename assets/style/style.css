@@ -627,6 +627,7 @@ header {
 
 .hamburger-images {
     display: none;
+    cursor: pointer;
 }
 
 footer {
